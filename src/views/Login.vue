@@ -64,7 +64,7 @@ export default {
 
       localStorage.setItem('userId', user.id)
       setTimeout(() => {
-        window.location.href = '/dashboard'
+        window.location.href = '/ff/dashboard'
       }, 500)
     }
 
