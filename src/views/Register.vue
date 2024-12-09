@@ -57,7 +57,7 @@ export default {
       localStorage.setItem('userId', userId)
       successMessage.value = "Регистрация успешна!";
       setTimeout(() => {
-        window.location.href = '/'
+        window.location.href = '/ff/'
       }, 1000)
     }
 
